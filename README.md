@@ -124,7 +124,7 @@ The diagram above shows major steps of this project development. Each block will
 ![Model Devlopment](media/img/model_development.png)
 
 The whole process of model development can roughly be represented by the above diagram.
-Final model used in this project is Random Forest Classifier. The raw code from data cleansing to model evaluation 
+Final model used in this project is `Logistic Regression`. The raw code from data cleansing to model evaluation 
 is available inside the [notebooks](notebooks) directory in this repository. If you want to understand more about the 
 model development, you can check the documentation [here](docs/model_dev.md).
 
