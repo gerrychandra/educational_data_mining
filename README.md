@@ -121,7 +121,7 @@ The diagram above shows major steps of this project development. Each block will
 
 ### Model Development
 
-![Model Devlopment](media/img/model_development.png)
+![Model Devlopment](media/img/model_dev.png)
 
 The whole process of model development can roughly be represented by the above diagram.
 Final model used in this project is `Logistic Regression`. The raw code from data cleansing to model evaluation 
