@@ -1,6 +1,6 @@
 # Model Development
 
-![Model Development](/media/img/model_development.png)
+![Model Development](/media/img/model_dev.png)
 
 ## Data Acquisition
 
