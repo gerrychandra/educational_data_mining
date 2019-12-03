@@ -13,7 +13,7 @@ class Predictor:
     def __init__(self):
         curr_dir = os.path.dirname(os.path.realpath(__file__))
         self.model = pickle.load(
-            open(os.path.join(curr_dir, 'RF_model_noss.pkl'), 'rb'))
+            open(os.path.join(curr_dir, 'log_model_noss.pkl'), 'rb'))
 
     def predict_proba(self, data: pd.DataFrame):
         return self.model.predict_proba(data)
