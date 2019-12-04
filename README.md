@@ -2,7 +2,17 @@
 
 <p>&nbsp;</p>
 
-## Background
+## CONTENTS
+
+* [Background](#background)
+* [Getting Started](#getting-started)
+* [Layout and Usage](#layout-and-usage)
+* [Development Flow](#development-flow)
+* [Suggestions for Future Work](#suggestions-for-future-work)
+
+<p>&nbsp;</p>
+
+## BACKGROUND
 
 Pursuing the right major in university is very important as it will have much contribution to students future career. However, 
 choosing a major can be a real issue for most final year high school students. There are many students who can't figure out
@@ -14,9 +24,11 @@ Harapan (UPH) offers solution to the mentioned problem through Pelita Harapan Ma
 to input all your high school scores data and choose 3 majors offered at UPH that catch your attention the most, then we will 
 give the most suitable major for you! 
 
+[Back to Contents](#contents)
+
 <p>&nbsp;</p>
 
-## Getting Started
+## GETTING STARTED
 
 ### Prerequisites
 
@@ -77,9 +89,11 @@ Debugger PIN: XXX-XXX-XXX
 
 When it appears, open your browser and go to `http://127.0.0.1:8050/` to access the app.
 
+[Back to Contents](#contents)
+
 <p>&nbsp;</p>
 
-## Layout and Usage
+## LAYOUT AND USAGE
 
 ### Home Screen
 
@@ -111,9 +125,11 @@ After filling up all the necessary data, hit the button and you will see the mos
 
 ![Recommendation Result](media/screencapture/submit_button.gif)
 
+[Back to Contents](#contents)
+
 <p>&nbsp;</p>
 
-## Development Flow
+## DEVELOPMENT FLOW
 
 ![Devlopment Flow](media/img/dev_flow.png)
 
@@ -146,11 +162,23 @@ prediction in the app using one of the three models.
 
 ### Production
 
-Once everything is done, the app is ready to use.
+When the integration between front-end and model is successful, the app is ready to use. Review [this section](#getting-started) to launch the app.
+
+[Back to Contents](#contents)
 
 <p>&nbsp;</p>
 
-## Authors
+## SUGGESTIONS FOR FUTURE WORK
+
+* Use different encoder to encode categorical features. Label encoder used in this project to encode `major` column might cause higher probability outcome when choosing the major with higher code order. 
+* Use scaler to normalize/standardize scores features. Courses scores and final score have different range, it might be a better idea to scale the score input first before fitted to model.
+* If possible, collect and gather more sample data.
+
+[Back to Contents](#contents)
+
+<p>&nbsp;</p>
+
+## AUTHORS
 
 * Gerry Chandra
 * Nadya Alimin
