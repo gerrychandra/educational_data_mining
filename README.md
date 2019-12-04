@@ -24,6 +24,8 @@ Harapan (UPH) offers solution to the mentioned problem through Pelita Harapan Ma
 to input all your high school scores data and choose 3 majors offered at UPH that catch your attention the most, then we will 
 give the most suitable major for you! 
 
+[Back to Contents](#contents)
+
 <p>&nbsp;</p>
 
 ## GETTING STARTED
@@ -87,6 +89,8 @@ Debugger PIN: XXX-XXX-XXX
 
 When it appears, open your browser and go to `http://127.0.0.1:8050/` to access the app.
 
+[Back to Contents](#contents)
+
 <p>&nbsp;</p>
 
 ## LAYOUT AND USAGE
@@ -120,6 +124,8 @@ Major options can be accessed through the dropdown list. You can either scroll o
 After filling up all the necessary data, hit the button and you will see the most recommended major for you.
 
 ![Recommendation Result](media/screencapture/submit_button.gif)
+
+[Back to Contents](#contents)
 
 <p>&nbsp;</p>
 
@@ -158,6 +164,8 @@ prediction in the app using one of the three models.
 
 When the integration between front-end and model is successful, the app is ready to use. Review [this section](#getting-started) to launch the app.
 
+[Back to Contents](#contents)
+
 <p>&nbsp;</p>
 
 ## SUGGESTIONS FOR FUTURE WORK
@@ -165,6 +173,8 @@ When the integration between front-end and model is successful, the app is ready
 * Use different encoder to encode categorical features. Label encoder used in this project to encode `major` column might cause higher probability outcome when choosing the major with higher code order. 
 * Use scaler to normalize/standardize scores features. Courses scores and final score have different range, it might be a better idea to scale the score input first before fitted to model.
 * If possible, collect and gather more sample data.
+
+[Back to Contents](#contents)
 
 <p>&nbsp;</p>
 
