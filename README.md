@@ -2,7 +2,7 @@
 
 <p>&nbsp;</p>
 
-## Contents
+## CONTENTS
 
 * [Background](#background)
 * [Getting Started](#getting-started)
@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 
-## Background
+## BACKGROUND
 
 Pursuing the right major in university is very important as it will have much contribution to students future career. However, 
 choosing a major can be a real issue for most final year high school students. There are many students who can't figure out
@@ -26,7 +26,7 @@ give the most suitable major for you!
 
 <p>&nbsp;</p>
 
-## Getting Started
+## GETTING STARTED
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ When it appears, open your browser and go to `http://127.0.0.1:8050/` to access 
 
 <p>&nbsp;</p>
 
-## Layout and Usage
+## LAYOUT AND USAGE
 
 ### Home Screen
 
@@ -123,7 +123,7 @@ After filling up all the necessary data, hit the button and you will see the mos
 
 <p>&nbsp;</p>
 
-## Development Flow
+## DEVELOPMENT FLOW
 
 ![Devlopment Flow](media/img/dev_flow.png)
 
@@ -160,7 +160,7 @@ When the integration between front-end and model is successful, the app is ready
 
 <p>&nbsp;</p>
 
-## Suggestions for Future Work
+## SUGGESTIONS FOR FUTURE WORK
 
 * Use different encoder to encode categorical features. Label encoder used in this project to encode `major` column might cause higher probability outcome when choosing the major with higher code order. 
 * Use scaler to normalize/standardize scores features. Courses scores and final score have different range, it might be a better idea to scale the score input first before fitted to model.
@@ -168,7 +168,7 @@ When the integration between front-end and model is successful, the app is ready
 
 <p>&nbsp;</p>
 
-## Authors
+## AUTHORS
 
 * Gerry Chandra
 * Nadya Alimin
