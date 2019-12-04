@@ -2,7 +2,15 @@
 
 <p>&nbsp;</p>
 
-[test](#background)
+## Contents
+
+* [Background](#background)
+* [Getting Started](#getting started)
+* [Layout and Usage](#layout and usage)
+* [Development Flow](#development flow)
+* [Suggestions for Future Work](#suggestions for future work)
+
+<p>&nbsp;</p>
 
 ## Background
 
@@ -148,7 +156,7 @@ prediction in the app using one of the three models.
 
 ### Production
 
-When the integration between front-end and model is successful, the app is ready to use.
+When the integration between front-end and model is successful, the app is ready to use. Review [this section](#geeting started) to launch the app.
 
 <p>&nbsp;</p>
 
