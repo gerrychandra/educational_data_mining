@@ -2,6 +2,8 @@
 
 <p>&nbsp;</p>
 
+[test](#background)
+
 ## Background
 
 Pursuing the right major in university is very important as it will have much contribution to students future career. However, 
@@ -146,7 +148,15 @@ prediction in the app using one of the three models.
 
 ### Production
 
-Once everything is done, the app is ready to use.
+When the integration between front-end and model is successful, the app is ready to use.
+
+<p>&nbsp;</p>
+
+## Suggestions for Future Work
+
+* Use different encoder to encode categorical features. Label encoder used in this project to encode `major` column might cause higher probability outcome when choosing the major with higher code order. 
+* Use scaler to normalize/standardize scores features. Courses scores and final score have different range, it might be a better idea to scale the score input first before fitted to model.
+* If possible, collect and gather more sample data.
 
 <p>&nbsp;</p>
 
