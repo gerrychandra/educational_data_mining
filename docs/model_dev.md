@@ -11,7 +11,7 @@ Technology Directorate (ITD) department. There are three main raw datasets given
 * OPCS datasets - contains GPA and CGPA information
 * High School (HS) datasets - contains high school scores information
 
-You can find all the raw data [here](/data/raw).
+The raw data are not provided in this repository due to confidentiality reason.
 
 ## Data Cleansing
 
@@ -30,15 +30,21 @@ For detailed process, you can refer to each of the following notebook:
 characteristic of the features. Some visualizations are plotted to
 make analysis easier. Here are several examples of what EDA can tell us about the data. 
 
-* Distribution of Last CGPA
+**Distribution of Last CGPA**
+
+We can see that the distribution is left-skewed where the data is centered around 3.00. 
 
 ![eda1](/media/img/eda1.png)
 
-* Major count
+**Major count**
+
+Here we can see the major with largest population is `Manajemen`.
 
 ![eda2](/media/img/eda2.png)
 
-* Finding out which faculty is more likely to fail
+**Finding out which faculty with highest fail percentage**
+
+From below graph, we can see that `Faculty of Science and Technology (FaST)` has the highest fail percentage among all other faculties at UPH.
 
 ![eda3](/media/img/eda3.png)
 
@@ -73,7 +79,7 @@ features. Final predictors used for model can be seen below, while the target re
 
 ![Final Predictor](/media/img/final_predictor.png)
 
-Then, the data is splitted **2/3 for training** and **1/3 for testing**.
+Then, the data is splitted **67% for training** and **33% for testing**.
 
 ## Model Training
 
@@ -83,18 +89,18 @@ The objective is to raise minority class, which is the `1` class so that the rat
 Next, we train the model using three different classifiers:
 
 * [Logistic Regression](https://medium.com/analytics-vidhya/logistic-regression-b35d2801a29c) - default parameters
-* [Random Forest Classifier](https://towardsdatascience.com/understanding-random-forest-58381e0602d2) - `max_depth` set to 3
+* [Random Forest Classifier](https://towardsdatascience.com/understanding-random-forest-58381e0602d2) - `max_depth` set to 3, to avoid overfitting.
 * [Support Vector Classifier](https://medium.com/@ankitnitjsr13/math-behind-support-vector-machine-svm-5e7376d0ee4d) - default parameters
 
 Check [this notebook](/notebooks/2.1-model_development_train.ipynb) to see more detailed process on training the model.
 
 ## Model Evaluation
 
-After models are trained, performance of each model is evaluated using the test set. We chose `Logistic Regression` as it 
-gives the best metrics compared to the other two models. 
+After all 3 models are trained, performance of each model is evaluated using the test set. We chose `Logistic Regression` as 
+it gives the best metrics compared to the other two models. 
 
 In the image below you can see the `Logistic Regression` model metrics score for various probability cutoffs. It gives 
-`accuracy` and `recall` around **68%** when the cutoff is 0.47. Not bad!
+`accuracy` and `recall` around **67%** when the cutoff is 0.47. Not bad!
 
 ![cutoffs](/media/img/eval1.png)
 
@@ -102,5 +108,5 @@ We also provide the `Confusion Matrix` and `AUC-ROC Curve` for both train and te
 
 ![CMs](/media/img/eval2.png)
 
-If you want to see the performance of the other two models, check [here](/notebooks/2.2-model_development_evaluation.ipynb).
+If you want to see the performance of the other two models and more about the analysis of model evaluation, check [here](/notebooks/2.2-model_development_evaluation.ipynb).
 
